@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Open Sans';
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #505050;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: 'Open Sans  (800)';
+  font-size: 1.9375em;
+  line-height: 120%;
+  letter-spacing: 0px;
+}
+
+h2 {
+  font-family: 'Open Sans  (800)';
+  font-size: 1.75rem;
+  line-height: 120%;
+  letter-spacing: 0px;
+}
+
+textarea {
+  box-shadow: 0.0px 1.0px 2.0px 0px rgba(0, 0, 0, 0.16);
+  fill: rgba(255, 255, 255, 1.0),
+}
+
+button {
+  font-size: 16px;
+  font-family: 'Open Sans  (600)';
+  line-height: 150%;
+  letter-spacing: 0px;
+  box-shadow: 0.0px 8.0px 16.0px 0px rgba(0, 0, 0, 0.16);
+  fill: rgba(255, 255, 255, 1.0),
+}
